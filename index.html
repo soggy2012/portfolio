@@ -3,9 +3,151 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <script src="script.js" defer></script>
     <title>Adam Janathan Ardiansyah</title>
 </head>
+
+
 <body>
-    <h1>TEST</h1>
+    <div class="hero-wrapper">
+        <!-- Sticky nav bar-->
+        <header id="header">
+            <div class="nav-wrapper">
+                <nav class="main-nav">
+                    <div class="nav-top-row">
+                        <div class="logo">
+                            <h4 id="brand-name">
+                                <a href="#">damJ</a>
+                            </h4>
+                        </div>
+                        <div class="burger" id="burger">&#9776;</div>
+                    </div>
+                    <ul class="nav-links">
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                    <div class="social-icons-nav" id="socialIcons">
+                        <a href="https://github.com/soggy2012" target="_blank" aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                        </a>
+                        /
+                        <a href="https://www.linkedin.com/in/adam-ardiansyah-48637630a/" target="_blank" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                        </a>
+                        /
+                        <a href="https://www.instagram.com/adamjanathan/?hl=en" target="_blank" aria-label="Instagram">
+                        <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </nav>
+            </div>
+        </header>
+
+    <!-- Hero content -->
+        <section id="hero" class="hero-section">
+            <div class="main-content fade-in">
+                <div class="hero-text">
+                    <h1 id="hero-adam">Hello,<br> im Adam.</h1>
+                    <h3>A wannabe frontend developer with a love for dark, aesthetic and minimalistic design.</h3>
+                </div>    
+            </div>
+        </section>
+
+        <div class="image-credit">
+                <p>Background photo © Rita Chou / Unsplash</p>
+        </div>
+    </div>
+<!-- About content -->
+    <section id="about" class="about-section">
+        <div class="main-content" >
+            <div class="about-layout fade-in-on-scroll">
+                <div class="about-heading">
+                    <h2>About</h2>
+                </div>
+                <div class="about-text">
+                     <p>
+                        Art comes in many different forms — each with its own creativity, ideas, and soul. Over the years, I’ve explored a few of them: picking up hobbies, trying new things, and diving into different creative outlets like painting, playing, and even producing music or sounds that helped me express what words couldn’t.
+                    </p>
+
+                    <p>
+                        Now, I find that same spark in coding. It challenges me, pushes me to learn, and extends my creativity through design and interaction. Seeing various websites or portfolios with fascinating interfaces made by professional designers and developers inspires and motivates me. This portfolio, for example, was inspired by an Italian developer <a href="https://bepatrickdavid.com/" target="_blank" rel="noopener">Patrick David</a>.
+                    </p>
+
+                    <p>
+                        Personally, detail matters a lot. I admire creators who take time implementing even the smallest touches, whether it's in visual design, music, gaming, or anything else. Even the smallest detail can make things truly stand out.
+                    </p>
+
+                    <p>
+                        I'm still learning, like most of us — experimenting with new things, tools, and figuring out what works. I'm excited to create more meaningful and interesting designs in the future and share them with the world as I go, one step at a time.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- Projects/Works content -->
+    <section id="projects" class="projects-section">
+        <div class="project-layout fade-in-on-scroll">
+            <h2>Projects</h2>
+            <div class="project-wrapper">
+                <div class="project-card">
+                    <h3>PPIJ Website (Ongoing)</h3>
+                    <p class="project-desc">A collaborative redesign of the official website for PPI Jerman, the Indonesian student association in Germany.
+                    </p>
+                    
+                    <div class="project-links">
+                        <p class="project-desc">Current live website(older design): </p>
+                        <a href="https://ppijerman.org/" class="btn" target="_blank">View Website</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <h3>Ticket generator</h3>
+                    <p class="project-desc">A JavaScript-based tool that lets users upload a profile image and generate a personalized event ticket.</p>
+                    <div class="project-links">
+                        <a href="https://soggy2012.github.io/ticket-project/" class="btn" target="_blank">View Project</a>
+                        <a href="https://github.com/soggy2012/ticket-project" class="btn" target="_blank">View Code</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- Contact content -->
+
+    <section id="contact">
+        <div class="main-content contact-layout fade-in-on-scroll">
+            <h2>Let's connect.</h2>
+
+            <div class="content-wrapper">
+                <p>
+                    Feel free to reach out to me if you're interested in chatting or collaborating.
+                <p> I am also currently looking for work.</p>
+                </p>
+                <p>
+                    I would also love to learn from more experienced developers and designers to help me on my journey.
+                </p>
+
+                <p class="email">Email: <a href="mailto:adam.janathan@gmail.com">adam.janathan@gmail.com</a></p>
+
+                <div class="social-icons">
+                    <a href="https://github.com/soggy2012" target="_blank" aria-label="GitHub">
+                    <i class="fab fa-github"></i>
+                    </a>
+                    /
+                    <a href="https://www.linkedin.com/in/adam-ardiansyah-48637630a/" target="_blank" aria-label="LinkedIn">
+                    <i class="fab fa-linkedin"></i>
+                    </a>
+                    /
+                    <a href="https://www.instagram.com/adamjanathan/?hl=en" target="_blank" aria-label="Instagram">
+                    <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
 </html>
