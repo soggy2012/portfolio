@@ -305,6 +305,13 @@ h2 {
     padding-bottom: 15px;
 }
 
+footer {
+  text-align: center;
+  padding: 2rem;
+  color: #888;
+  font-size: 0.9rem;
+}
+
 /* Media query */
 
 .burger {
