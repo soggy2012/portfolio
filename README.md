@@ -1,4 +1,4 @@
-# 💼 Personal Portfolio – soggy2012
+# 💼 Personal Portfolio – Adam Ardiansyah
 
 Live Site: [https://soggy2012.github.io/portfolio](https://soggy2012.github.io/portfolio)
 
