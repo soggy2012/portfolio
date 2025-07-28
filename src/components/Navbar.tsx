@@ -3,7 +3,6 @@
 import SocialIcons from "./SocialIcons";
 import { useState } from "react"
 import Link from 'next/link'
-import { FaBars, FaXmark } from "react-icons/fa6";
 
 export default function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
