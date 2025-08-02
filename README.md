@@ -1,6 +1,6 @@
 # Personal Portfolio – Adam Janathan Ardiansyah
 
-A responsive and animated developer portfolio built with **Next.js**, **TypeScript**, and **Tailwind CSS**. This site showcases my projects, skills, and background as a developer and designer.
+A responsive developer portfolio built with **Next.js**, **TypeScript**, and **Tailwind CSS**. This site showcases my projects, skills, and background as a developer and designer.
 
 https://portfolio-f5z44qjzd-adam-ardiansyahs-projects-c997ee15.vercel.app/
 
